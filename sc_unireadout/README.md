@@ -15,11 +15,11 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 
 # Folder content
 
-* invivo         --->    code used to perform the analysis of the in vivo data
-* simulations    --->    code used to perform simulations
-* dependencies   --->    dependencies (thirs party code and additional code not available online to go here)
-* sc_phantom     --->    synthetic spinal cord phantom (data used in simulations)
-* sc_invivo      --->    human spinal cord scans (data used for in vivo analysis). 
+* `invivo`         ->    code used to perform the analysis of the in vivo data
+* `simulations`    ->    code used to perform simulations
+* `dependencies`   ->    dependencies (thirs party code and additional code not available online to go here)
+* `sc_phantom`     ->    synthetic spinal cord phantom (data used in simulations)
+* `sc_invivo`      ->    human spinal cord scans (data used for in vivo analysis). 
                          This data unfortunately cannot be released online, but it can be obtained
                          upon request. 
                          For information please contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
