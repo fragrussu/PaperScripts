@@ -4,7 +4,7 @@ Code and data for
 
 Contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
 
-Code and data will be available in the next 48 hours.
+Code and data will be available in the next 48 hours (by Saturday 30th of November 2019). Sorry for the wait...
 
 
 # License
