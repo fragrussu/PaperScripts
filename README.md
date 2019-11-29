@@ -1,7 +1,7 @@
 # PaperScripts
 This repository contains scripts written to produce a number of research articles, which are shared to enhance reproducibility in research. Whenever possible, data are also included in the repository.
 
-# If you use PaperScripts
+# If you use data and/or code from PaperScripts
 If you use anything included in PaperScripts in your research, please remember to cite our papers. The paper will depend on what you use, as explained below.
 * data and/ord code from [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): please cite (... to be filled by Nov 30th 2019 ...).
 * ... other repositories to follow ...
