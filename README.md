@@ -1,5 +1,7 @@
 # PaperScripts overview
-This repository contains scripts written to produce a number of research articles, which are shared to enhance reproducibility in research. Whenever possible, data are also included in the repository.
+This repository contains scripts written to produce a number of research articles, which are shared to enhance reproducibility in research. Whenever possible, data are also included in the repository.\\
+PaperScripts includes the following projects:
+* [`sc_unireadout`]: code and simulated data part of (... to be added by Nov 30th, sorry for the wait! ...)
 
 # If you use data and/or code from PaperScripts
 If you use anything included in PaperScripts in your research, please remember to cite our papers. The paper will depend on what you use, as explained below.
