@@ -8,8 +8,7 @@ PaperScripts includes the following projects:
 
 # If you use data and/or code from PaperScripts
 If you use anything included in PaperScripts in your research, please remember to cite our papers. The paper will depend on what you use, as explained below.
-* data and/ord code from [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): please cite (... to be filled by Nov 30th 2019 ...).
-* ... other repositories to follow ...
+* [`PaperScripts/sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): please cite (... to be filled by Nov 30th 2019 ...).
 
 # License
 PaperScripts and all data and code within it is distributed under the BSD 2-Clause License, Copyright (c) 2019, University College London. All rights reserved. Link to license [here](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE).
