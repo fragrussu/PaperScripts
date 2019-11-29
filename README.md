@@ -3,7 +3,8 @@ This repository contains scripts written to produce a number of research article
 
 
 PaperScripts includes the following projects:
-* `PaperScripts/sc_unireadout`: code and simulated data part of (... to be added by Nov 30th, sorry for the wait! ...)
+* `PaperScripts/sc_unireadout`: code and simulated data part of (... to be added by Nov 30th, sorry for the wait! ...);
+* ... more project coming soon! ...
 
 # If you use data and/or code from PaperScripts
 If you use anything included in PaperScripts in your research, please remember to cite our papers. The paper will depend on what you use, as explained below.
