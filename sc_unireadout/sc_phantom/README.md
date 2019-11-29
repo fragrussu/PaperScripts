@@ -1,0 +1,3 @@
+The synthetic spinal cord scans will be uploaded here within the next 48 hours (by Saturday the 30th of November 2019). 
+
+Apologies for the delay...
