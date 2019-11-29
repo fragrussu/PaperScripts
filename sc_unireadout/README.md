@@ -24,7 +24,7 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
                          upon request. 
                          For information please contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
 
-Each sub-folder contains its own README file
+Each sub-folder contains its own README file.
 
 
 
