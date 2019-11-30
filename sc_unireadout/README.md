@@ -1,16 +1,12 @@
 # Information
-Code and data for 
-"Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising".
+Code and data for "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538). Link to preprint [here](http://www.biorxiv.org/content/10.1101/859538v1).
 
 Contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
-
-Code and data will be available in the next 48 hours (by Saturday 30th of November 2019). Sorry for the wait...
 
 
 # License
 All files in this project are released under a BSD 2-Clause License.
 See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE) or go to http://github.com/fragrussu/PaperScripts/blob/master/LICENSE for full license details.
-
 
 
 # Folder content
