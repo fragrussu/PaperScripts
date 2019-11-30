@@ -1,3 +1,5 @@
-The synthetic spinal cord scans will be uploaded here within the next 48 hours (by Saturday the 30th of November 2019). 
+Synthetic spinal cord scans used for simulations. 
 
-Apologies for the delay...
+A detailed README will be uploaded by Monday, Decembeer the 2nd 2019 (apologies for the delay!).
+
+
