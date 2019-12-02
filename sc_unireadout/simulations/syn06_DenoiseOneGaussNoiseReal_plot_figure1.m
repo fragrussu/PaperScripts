@@ -120,38 +120,38 @@ for ss=1:length(snr_to_show)
    
     % Input file name
     
-    dwiqmtirsemesefile_noisy = fullfile(datadir,['vartissue_dwiqmtirsemese_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    dwiqmtirsemesefile_denoised = fullfile(datadir,['vartissue_dwiqmtirsemese_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    dwiqmtirsemesefile_sigma = fullfile(datadir,['vartissue_dwiqmtirsemese_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    dwiqmtirsemesefile_noisy = fullfile(datadir,['vartissue_dwiqmtirsemese_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    dwiqmtirsemesefile_denoised = fullfile(datadir,['vartissue_dwiqmtirsemese_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    dwiqmtirsemesefile_sigma = fullfile(datadir,['vartissue_dwiqmtirsemese_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
         
-    dwiqmtfile_noisy = fullfile(datadir,['vartissue_dwiqmt_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    dwiqmtfile_denoised = fullfile(datadir,['vartissue_dwiqmt_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    dwiqmtfile_sigma = fullfile(datadir,['vartissue_dwiqmt_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    dwiqmtfile_noisy = fullfile(datadir,['vartissue_dwiqmt_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    dwiqmtfile_denoised = fullfile(datadir,['vartissue_dwiqmt_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    dwiqmtfile_sigma = fullfile(datadir,['vartissue_dwiqmt_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
         
-    dwiirsefile_noisy = fullfile(datadir,['vartissue_dwiirse_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    dwiirsefile_denoised = fullfile(datadir,['vartissue_dwiirse_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    dwiirsefile_sigma = fullfile(datadir,['vartissue_dwiirse_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    dwiirsefile_noisy = fullfile(datadir,['vartissue_dwiirse_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    dwiirsefile_denoised = fullfile(datadir,['vartissue_dwiirse_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    dwiirsefile_sigma = fullfile(datadir,['vartissue_dwiirse_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
     
-    dwimesefile_noisy = fullfile(datadir,['vartissue_dwimese_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    dwimesefile_denoised = fullfile(datadir,['vartissue_dwimese_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    dwimesefile_sigma = fullfile(datadir,['vartissue_dwimese_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    dwimesefile_noisy = fullfile(datadir,['vartissue_dwimese_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    dwimesefile_denoised = fullfile(datadir,['vartissue_dwimese_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    dwimesefile_sigma = fullfile(datadir,['vartissue_dwimese_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
     
     
-    dwifile_noisy = fullfile(datadir,['vartissue_dwi_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    dwifile_denoised = fullfile(datadir,['vartissue_dwi_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    dwifile_sigma = fullfile(datadir,['vartissue_dwi_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    dwifile_noisy = fullfile(datadir,['vartissue_dwi_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    dwifile_denoised = fullfile(datadir,['vartissue_dwi_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    dwifile_sigma = fullfile(datadir,['vartissue_dwi_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
     
-    qmtfile_noisy = fullfile(datadir,['vartissue_qmt_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    qmtfile_denoised = fullfile(datadir,['vartissue_qmt_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    qmtfile_sigma = fullfile(datadir,['vartissue_qmt_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    qmtfile_noisy = fullfile(datadir,['vartissue_qmt_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    qmtfile_denoised = fullfile(datadir,['vartissue_qmt_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    qmtfile_sigma = fullfile(datadir,['vartissue_qmt_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
     
-    irsefile_noisy = fullfile(datadir,['vartissue_irse_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    irsefile_denoised = fullfile(datadir,['vartissue_irse_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    irsefile_sigma = fullfile(datadir,['vartissue_irse_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    irsefile_noisy = fullfile(datadir,['vartissue_irse_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    irsefile_denoised = fullfile(datadir,['vartissue_irse_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    irsefile_sigma = fullfile(datadir,['vartissue_irse_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
     
-    mesefile_noisy = fullfile(datadir,['vartissue_irse_noisyrice_snr' num2str(snr_to_show(ss)) '.nii']);
-    mesefile_denoised = fullfile(datadir,['vartissue_irse_noisyrice_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
-    mesefile_sigma = fullfile(datadir,['vartissue_irse_noisyrice_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
+    mesefile_noisy = fullfile(datadir,['vartissue_irse_noisy_snr' num2str(snr_to_show(ss)) '.nii']);
+    mesefile_denoised = fullfile(datadir,['vartissue_irse_noisy_snr' num2str(snr_to_show(ss)) '_denoised.nii']);
+    mesefile_sigma = fullfile(datadir,['vartissue_irse_noisy_snr' num2str(snr_to_show(ss)) '_sigma.nii']);
 
     
     % Load data and calculate residuals
