@@ -56,16 +56,16 @@ dwiqmtfile = fullfile(indir,'multimodal_images','vartissue_dwiqmt_M.nii');
 dwiqmtirsemesefile = fullfile(indir,'multimodal_images','vartissue_dwiqmtirsemese_M.nii');
 
 
-dwifile_noisy = fullfile(outdir,'vartissue_dwi_noisyrice');  
-irsefile_noisy  = fullfile(outdir,'vartissue_irse_noisyrice');  
-mesefile_noisy  = fullfile(outdir,'vartissue_mese_noisyrice');  
-qmtfile_noisy  = fullfile(outdir,'vartissue_qmt_noisyrice');  
+dwifile_noisy = fullfile(outdir,'vartissue_dwi_noisy');  
+irsefile_noisy  = fullfile(outdir,'vartissue_irse_noisy');  
+mesefile_noisy  = fullfile(outdir,'vartissue_mese_noisy');  
+qmtfile_noisy  = fullfile(outdir,'vartissue_qmt_noisy');  
 
-dwiirsefile_noisy  = fullfile(outdir,'vartissue_dwiirse_noisyrice');
-dwimesefile_noisy  = fullfile(outdir,'vartissue_dwimese_noisyrice');
-dwiqmtfile_noisy  = fullfile(outdir,'vartissue_dwiqmt_noisyrice');
+dwiirsefile_noisy  = fullfile(outdir,'vartissue_dwiirse_noisy');
+dwimesefile_noisy  = fullfile(outdir,'vartissue_dwimese_noisy');
+dwiqmtfile_noisy  = fullfile(outdir,'vartissue_dwiqmt_noisy');
 
-dwiqmtirsemesefile_noisy  = fullfile(outdir,'vartissue_dwiqmtirsemese_noisyrice');
+dwiqmtirsemesefile_noisy  = fullfile(outdir,'vartissue_dwiqmtirsemese_noisy');
 
 cordfile = fullfile(indir,'cord.nii');
 
