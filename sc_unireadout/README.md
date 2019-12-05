@@ -1,5 +1,5 @@
 # Information
-Code and data for "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538). Link to preprint [here](http://www.biorxiv.org/content/10.1101/859538v1).
+Code and data for "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538). Link to preprint [here](http://doi.org/10.1101/859538).
 
 Contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
 
@@ -16,9 +16,10 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 * `dependencies`   ->    dependencies (thirs party code and additional code not available online to go here)
 * `sc_phantom`     ->    synthetic spinal cord phantom (data used in simulations)
 * `sc_invivo`      ->    human spinal cord scans (data used for in vivo analysis). 
-                         This data unfortunately cannot be released online, but it can be obtained
-                         upon request. 
-                         For information please contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
+                         This data unfortunately cannot be released online. The folder is reported for 
+                         completeness. Data is available upon request. For information please contact: 
+                         Francesco Grussu, `<f.grussu@ucl.ac.uk>`
+
 
 Each sub-folder contains its own README file.
 
