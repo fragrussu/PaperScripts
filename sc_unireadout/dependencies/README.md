@@ -32,7 +32,10 @@ and install on your machine:
 * [SCT](http://github.com/neuropoly/spinalcordtoolbox);
 * [NiftyReg](http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg);
 * [NifTK](http://github.com/NifTK/NifTK);
-* [FSL](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+* [FSL](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki).
+
+
+You would also need some additional code for quantitative magnetisation transfer synthesis/fitting, which is available upon request. If you are interested, please contact Francesco Grussu at `<f.grussu@ucl.ac.uk>`.
 
 
 
