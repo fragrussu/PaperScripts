@@ -32,42 +32,42 @@ Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScript
 
 # Summary description of scripts
 
-* scr01_segment_dwi_prisma.sh                   ->  segment the spinal cord to run denoising only within the spinal cord
-* scr02_denoiserice_london.m                    ->  denoise the London data
-* scr02_denoise_prisma.m                        ->  denoise the NYU and Montreal data
-* scr03_create_bvec_allmultimod.m               ->  create useful information to use sct_dmri_moco to all EPI volumes
-* scr04_RunMoco.sh                              ->  motion correction of all data (estimate transformations)
-* scr05_ApplyMoco_london.sh                     ->  motion correction of London data (apply transformations to all denoising strategies)
-* scr05_ApplyMoco_montreal.sh                   ->  motion correction of Montreal data (apply transformations to all denoising strategies)
-* scr05_ApplyMoco_nyu.sh                        ->  motion correction of NYU data (apply transformations to all denoising strategies)
-* scr06_FitRelaxometry_london.sh                ->  fit relaxometry on London data
-* scr06_FitRelaxometry_montreal.sh              ->  fit relaxometry on Montreal data
-* scr06_FitRelaxometry_nyu.sh                   ->  fit relaxometry on NYU data
-* scr07_FitDKI_london.sh                        ->  fit DKI on London data
-* scr07_FitDKI_montreal.sh                      ->  fit DKI on Montreal data
-* scr07_FitDKI_nyu.sh                           ->  fit DKI on NYU data
-* scr08_RegEPI2FFE_london.sh                    ->  register anatomical scan and EPI, London data
-* scr08_RegEPI2FFE_montreal.sh                  ->  register anatomical scan and EPI, Montreal data
-* scr08_RegEPI2FFE_nyu.sh                       ->  register anatomical scan and EPI, NYU data
-* scr09_GetFieldMapsToEPI_london.sh             ->  warp field maps defined in anatomical space to EPI, London data
-* scr10_fitqmt.m                                ->  fit qMT, London data
-* scr11_deepseggm_london.sh                     ->  segment grey matter, London data
-* scr11_deepseggm_montreal.sh                   ->  segment grey matter, Montreal data
-* scr11_deepseggm_nyu.sh                        ->  segment grey matter, NYU data
-* scr12_cov_gm_london_table5to8.m               ->  evaluate COVs for tables 5 to 8
-* scr12_cov_gm_prisma_table5to8.m               ->  evaluate COVs for tables 5 to 8
-* scr12_cov_wm_london_table5to8.m               ->  evaluate COVs for tables 5 to 8
-* scr12_cov_wm_prisma_table5to8.m               ->  evaluate COVs for tables 5 to 8
-* scr12_med_gm_london_table5to8.m               ->  evaluate medians for tables 5 to 8
-* scr12_med_gm_prisma_table5to8.m               ->  evaluate medians for tables 5 to 8
-* scr12_med_wm_london_table5to8.m               ->  evaluate medians for tables 5 to 8
-* scr12_med_wm_prisma_table5to8.m               ->  evaluate medians for tables 5 to 8
-* scr13_figure3a_OneSubjectImagesPhil.m         ->  plot examples of images from London data, for figure 3
-* scr13_figure3b_OneSubjectResidualsPhil.m      ->  plot examples of residuals from London data, for figure 3
-* scr14_figure4a_OneSubjectImagesSiem.m         ->  plot examples of images from NYU and Montreal data, for figure 4
-* scr14_figure4b_OneSubjectResidualsSiem.m      ->  plot examples of residuals from NYU and Montreal data, for figure 4
-* scr15_figure5_OneSubjectMetricsPhil.m         ->  plot examples of metrics from London data, for figure 5 
-* scr16_figure6_OneSubjectMetricsSiemNY.m       ->  plot examples of metrics from NYU data, for figure 6
-* scr17_figure7_OneSubjectMetricsSiemMon.m      ->  plot examples of metrics from Montreal data, for figure 7
-* scr18_PlotSigmaNoise_london.m                 ->  plot estimates of noise levels from London data, for supplementary material S3
-* scr18_PlotSigmaNoise_prisma.m                 ->  plot estimates of noise levels from NYU and Montreal data, for supplementary material S3
+* `scr01_segment_dwi_prisma.sh`                   ->  segment the spinal cord to run denoising only within the spinal cord
+* `scr02_denoiserice_london.m`                    ->  denoise the London data
+* `scr02_denoise_prisma.m`                        ->  denoise the NYU and Montreal data
+* `scr03_create_bvec_allmultimod.m`               ->  create useful information to use sct_dmri_moco to all EPI volumes
+* `scr04_RunMoco.sh`                              ->  motion correction of all data (estimate transformations)
+* `scr05_ApplyMoco_london.sh`                     ->  motion correction of London data (apply transformations to all denoising strategies)
+* `scr05_ApplyMoco_montreal.sh`                   ->  motion correction of Montreal data (apply transformations to all denoising strategies)
+* `scr05_ApplyMoco_nyu.sh`                        ->  motion correction of NYU data (apply transformations to all denoising strategies)
+* `scr06_FitRelaxometry_london.sh`                ->  fit relaxometry on London data
+* `scr06_FitRelaxometry_montreal.sh`              ->  fit relaxometry on Montreal data
+* `scr06_FitRelaxometry_nyu.sh`                   ->  fit relaxometry on NYU data
+* `scr07_FitDKI_london.sh`                        ->  fit DKI on London data
+* `scr07_FitDKI_montreal.sh`                      ->  fit DKI on Montreal data
+* `scr07_FitDKI_nyu.sh`                           ->  fit DKI on NYU data
+* `scr08_RegEPI2FFE_london.sh`                    ->  register anatomical scan and EPI, London data
+* `scr08_RegEPI2FFE_montreal.sh`                  ->  register anatomical scan and EPI, Montreal data
+* `scr08_RegEPI2FFE_nyu.sh`                       ->  register anatomical scan and EPI, NYU data
+* `scr09_GetFieldMapsToEPI_london.sh`             ->  warp field maps defined in anatomical space to EPI, London data
+* `scr10_fitqmt.m`                                ->  fit qMT, London data
+* `scr11_deepseggm_london.sh`                     ->  segment grey matter, London data
+* `scr11_deepseggm_montreal.sh`                   ->  segment grey matter, Montreal data
+* `scr11_deepseggm_nyu.sh`                        ->  segment grey matter, NYU data
+* `scr12_cov_gm_london_table5to8.m`               ->  evaluate COVs for tables 5 to 8
+* `scr12_cov_gm_prisma_table5to8.m`               ->  evaluate COVs for tables 5 to 8
+* `scr12_cov_wm_london_table5to8.m`               ->  evaluate COVs for tables 5 to 8
+* `scr12_cov_wm_prisma_table5to8.m`               ->  evaluate COVs for tables 5 to 8
+* `scr12_med_gm_london_table5to8.m`               ->  evaluate medians for tables 5 to 8
+* `scr12_med_gm_prisma_table5to8.m`               ->  evaluate medians for tables 5 to 8
+* `scr12_med_wm_london_table5to8.m`               ->  evaluate medians for tables 5 to 8
+* `scr12_med_wm_prisma_table5to8.m`               ->  evaluate medians for tables 5 to 8
+* `scr13_figure3a_OneSubjectImagesPhil.m`         ->  plot examples of images from London data, for figure 3
+* `scr13_figure3b_OneSubjectResidualsPhil.m`      ->  plot examples of residuals from London data, for figure 3
+* `scr14_figure4a_OneSubjectImagesSiem.m`         ->  plot examples of images from NYU and Montreal data, for figure 4
+* `scr14_figure4b_OneSubjectResidualsSiem.m`      ->  plot examples of residuals from NYU and Montreal data, for figure 4
+* `scr15_figure5_OneSubjectMetricsPhil.m`         ->  plot examples of metrics from London data, for figure 5 
+* `scr16_figure6_OneSubjectMetricsSiemNY.m`       ->  plot examples of metrics from NYU data, for figure 6
+* `scr17_figure7_OneSubjectMetricsSiemMon.m`      ->  plot examples of metrics from Montreal data, for figure 7
+* `scr18_PlotSigmaNoise_london.m`                 ->  plot estimates of noise levels from London data, for supplementary material S3
+* `scr18_PlotSigmaNoise_prisma.m`                 ->  plot estimates of noise levels from NYU and Montreal data, for supplementary material S3
