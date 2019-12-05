@@ -11,10 +11,10 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 
 # Folder content
 
-* [`invivo`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo)         ->    code used to perform the analysis of the in vivo data
-* [`simulations`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations)    ->    code used to perform simulations
-* [`dependencies`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/dependencies)   ->    dependencies (thirs party code and additional code not available online to go here)
-* [`sc_phantom`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom)     ->    synthetic spinal cord phantom (data used in simulations)
+* [`invivo`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo)         ->    code used to perform the analysis of the in vivo data;
+* [`simulations`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations)    ->    code used to perform simulations;
+* [`dependencies`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/dependencies)   ->    dependencies (third party code and additional code not available online should go here);
+* [`sc_phantom`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom)     ->    synthetic spinal cord phantom (data used in simulations);
 * [`sc_invivo`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_invivo)      ->    human spinal cord scans (data used for in vivo analysis). 
                          This data unfortunately cannot be released online, and the folder is reported here for 
                          completeness. Nonetheless, data is available upon request: for information please contact 
