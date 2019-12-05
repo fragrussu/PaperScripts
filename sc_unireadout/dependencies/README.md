@@ -12,10 +12,26 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 
 
 # Folder content
-Scripts and functions called by scripts in the `invivo` and `simulations` folders.
+This folder contains various routines called by scripts in the [`invivo`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo) and [`simulations`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) folders.
 
-Additionally, [MyRelax](http://github.com/fragrussu/MyRelax), [MRItools](http://github.com/fragrussu/MRItools) and [MP-PCA](http://github.com/NYU-DiffusionMRI/mppca_denoise) should also be cloned here.
+Additionally, before running the code in the [`invivo`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo) and [`simulations`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) folders, you should make sure to download/clone here:
+* [MyRelax](http://github.com/fragrussu/MyRelax);
+* [MRItools](http://github.com/fragrussu/MRItools);
+* [MP-PCA](http://github.com/NYU-DiffusionMRI/mppca_denoise)
 
+
+You should also install on your machine:
+* [SCT](http://github.com/neuropoly/spinalcordtoolbox);
+* [NiftyReg](http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg);
+* [NifTK](http://github.com/NifTK/NifTK);
+* [FSL](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
+
+and have a Python 3 installation that includes:
+* (DiPy)(http://dipy.org);
+* [SciPy](http://www.scipy.org);
+* [NumPy](https://numpy.org);
+* [Nibabel](http://nipy.org/nibabel);
+* [Scikit-learn](http://scikit-learn.org/stable).
 
 
 
