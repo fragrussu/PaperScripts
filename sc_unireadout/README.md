@@ -16,8 +16,8 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 * `dependencies`   ->    dependencies (thirs party code and additional code not available online to go here)
 * `sc_phantom`     ->    synthetic spinal cord phantom (data used in simulations)
 * `sc_invivo`      ->    human spinal cord scans (data used for in vivo analysis). 
-                         This data unfortunately cannot be released online. The folder is reported for 
-                         completeness. Data is available upon request. For information please contact: 
+                         This data unfortunately cannot be released online, and the folder is reported here for 
+                         completeness. Nonetheless, data is available upon request: for information please contact 
                          Francesco Grussu, `<f.grussu@ucl.ac.uk>`
 
 
