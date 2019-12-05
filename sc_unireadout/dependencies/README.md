@@ -1,6 +1,5 @@
 # Information
-Additional code used for 
-"Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising".
+Additional code used for "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538). Link to preprint [here](http://doi.org/10.1101/859538).
 
 Contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
 
@@ -11,7 +10,7 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 
 
 
-# Folder content
+# Description
 This folder contains various routines called by scripts in the [`invivo`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo) and [`simulations`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) folders.
 
 Additionally, before running the code in the [`invivo`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo) and [`simulations`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) folders, you should make sure to have Matlab (The MathWorks, Inc., Natick, MA) and a Python 3 installation such as [Anaconda](http://www.anaconda.com/distribution) that includes:
