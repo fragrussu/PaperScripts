@@ -6,8 +6,8 @@ PaperScripts includes the following projects:
 * [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): code and simulated data part of "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538). Link to preprint [here](http://www.biorxiv.org/content/10.1101/859538v1).
 * ... more projects to follow soon ...
 
-# If you use data and/or code from PaperScripts
-If you use anything included in PaperScripts in your research, please remember to cite our papers. The paper will depend on what you use, as explained below.
+# If you use anything from PaperScripts
+If you use data or code included in PaperScripts in your research, please remember to cite our papers. The paper will depend on what you use, as explained below.
 * [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): please cite our [preprint](http://www.biorxiv.org/content/10.1101/859538v1) "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538).
 
 # License
