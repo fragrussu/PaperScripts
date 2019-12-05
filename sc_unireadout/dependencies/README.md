@@ -14,24 +14,26 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 # Folder content
 This folder contains various routines called by scripts in the [`invivo`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo) and [`simulations`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) folders.
 
-Additionally, before running the code in the [`invivo`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo) and [`simulations`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) folders, you should make sure to download/clone here:
+Additionally, before running the code in the [`invivo`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/invivo) and [`simulations`](https://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) folders, you should make sure to have Matlab (The MathWorks, Inc., Natick, MA) and a Python 3 installation such as [Anaconda](http://www.anaconda.com/distribution) that includes:
+* [DiPy](http://dipy.org);
+* [SciPy](http://www.scipy.org);
+* [NumPy](https://numpy.org);
+* [Nibabel](http://nipy.org/nibabel);
+* [Scikit-learn](http://scikit-learn.org/stable).
+
+
+You should also download/clone here:
 * [MyRelax](http://github.com/fragrussu/MyRelax);
 * [MRItools](http://github.com/fragrussu/MRItools);
 * [MP-PCA](http://github.com/NYU-DiffusionMRI/mppca_denoise)
 
 
-You should also install on your machine:
+and install on your machine:
 * [SCT](http://github.com/neuropoly/spinalcordtoolbox);
 * [NiftyReg](http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg);
 * [NifTK](http://github.com/NifTK/NifTK);
 * [FSL](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki)
 
-and have a Python 3 installation that includes:
-* (DiPy)(http://dipy.org);
-* [SciPy](http://www.scipy.org);
-* [NumPy](https://numpy.org);
-* [Nibabel](http://nipy.org/nibabel);
-* [Scikit-learn](http://scikit-learn.org/stable).
 
 
 
