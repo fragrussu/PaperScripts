@@ -12,21 +12,23 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 
 # Dependencies
 
-* Niftimatlib                --> http://sourceforge.net/projects/niftilib/files/niftimatlib/ (to be downloaded to ../dependencies)
-* MP-PCA code                --> http://github.com/NYU-DiffusionMRI/mppca_denoise (to be downloaded to ../dependencies)
-* qMT code                   --> available upon request, please contact Dr Francesco Grussu <f.grussu@ucl.ac.uk> or Dr Marco Battiston <marco.battiston@ucl.ac.uk> (to be placed when available to ../dependencies)
-* FSL                        --> http://fsl.fmrib.ox.ac.uk/fsl/fslwiki
-* NiftyReg                   --> http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg
-* NifTK                      --> http://cmiclab.cs.ucl.ac.uk/CMIC/NifTK
-* MyRelax                    --> http://github.com/fragrussu/MyRelax (to be downloaded to ../dependencies)
-* MRItools                   --> http://github.com/fragrussu/MRItools (to be downloaded to ../dependencies)
-* DiPy                       --> http://dipy.org/
-* SciPy                      --> http://www.scipy.org/
-* NumPy                      --> https://numpy.org/
-* Nibabel                    --> http://nipy.org/nibabel/
-* Scikit-learn               --> http://scikit-learn.org/stable/
-* Python standard library    --> available in any python distribution such as Anaconda (http://www.anaconda.com/distribution/)
-* unzip command              --> available as `sudo apt install unzip` for Linux
+* Niftimatlib                -> http://sourceforge.net/projects/niftilib/files/niftimatlib/ (to be downloaded to ../dependencies)
+* MP-PCA code                -> http://github.com/NYU-DiffusionMRI/mppca_denoise (to be downloaded to ../dependencies)
+* qMT code                   -> available upon request, please contact Dr Francesco Grussu <f.grussu@ucl.ac.uk> or Dr Marco Battiston <marco.battiston@ucl.ac.uk> (to be placed when available to ../dependencies)
+* FSL                        -> http://fsl.fmrib.ox.ac.uk/fsl/fslwiki
+* NiftyReg                   -> http://cmictig.cs.ucl.ac.uk/wiki/index.php/NiftyReg
+* NifTK                      -> http://cmiclab.cs.ucl.ac.uk/CMIC/NifTK
+* MyRelax                    -> http://github.com/fragrussu/MyRelax (to be downloaded to ../dependencies)
+* MRItools                   -> http://github.com/fragrussu/MRItools (to be downloaded to ../dependencies)
+* DiPy                       -> http://dipy.org/
+* SciPy                      -> http://www.scipy.org/
+* NumPy                      -> https://numpy.org/
+* Nibabel                    -> http://nipy.org/nibabel/
+* Scikit-learn               -> http://scikit-learn.org/stable/
+* Python standard library    -> available in any python distribution such as Anaconda (http://www.anaconda.com/distribution/)
+* unzip command              -> available as `sudo apt install unzip` for Linux
+
+Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScripts/blob/master/sc_unireadout/dependencies/README.md).
 
 
 
