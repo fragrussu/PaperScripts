@@ -27,6 +27,8 @@ See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE)
 * Python standard library    -> available in any python distribution such as Anaconda (http://www.anaconda.com/distribution/)
 * unzip command              -> available as `sudo apt install unzip` for Linux
 
+Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScripts/blob/master/sc_unireadout/dependencies/README.md)
+
 
 # Summary description of scripts
 
