@@ -1,6 +1,7 @@
 # Information
-Code and data to run simulations in
-"Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising".
+Code for simulations in "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538). Link to preprint [here](http://doi.org/10.1101/859538).
+
+
 Contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
 
 
