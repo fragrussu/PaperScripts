@@ -38,6 +38,7 @@ The [`sc_phantom`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unire
 
 
 
+
 The sub-folder [`multimodal_tissueprops`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_tissueprops) contains:
 * adcsf_um2ms.nii.gz -> voxel-wise axial diffusivity (AD) of CSF [um^2/ms]
 * adgm_um2ms.nii.gz -> voxel-wise AD of grey matter [um^2/ms]
@@ -63,6 +64,7 @@ The sub-folder [`multimodal_tissueprops`](http://github.com/fragrussu/PaperScrip
 
 
 
+
 The sub-folder [`multimodal_images`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_images) contains:
 * vartissue_dwi_M.nii.gz -> synthetic, noise-free DWI scan
 * vartissue_irse_M.nii.gz -> synthetic, noise-free IR scan
@@ -72,6 +74,7 @@ The sub-folder [`multimodal_images`](http://github.com/fragrussu/PaperScripts/tr
 * vartissue_dwimese_M.nii.gz -> concatenation of DWI and mTE along 4th dimension (in this order)
 * vartissue_dwiqmt_M.nii.gz -> concatenation of DWI and qMT along 4th dimension (in this order)
 * vartissue_dwiqmtirsemese_M.nii.gz -> concatenation of DWI, qMT, IR, mTE along 4th dimension (in this order)
+
 
 
 
