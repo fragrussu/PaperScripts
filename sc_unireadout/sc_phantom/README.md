@@ -26,8 +26,8 @@ The [`sc_phantom`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unire
 * multimodal_images -> folder containing noise-free synthetic spinal cord scans
 * multimodal_noiserealisation_gauss -> folder containing noisy/denoised synthetic spinal cord scans (Gaussian noise). Only noisy/denoised scans for a signal-to-noise ratio (SNR) of 15 are included to reduce the size of the repository. More SNRs were tested, please run script [`syn05_DenoiseOneGaussNoiseReal.m`](https://github.com/fragrussu/PaperScripts/blob/master/sc_unireadout/simulations/syn05_DenoiseOneGaussNoiseReal.m) for more SNRs
 * multimodal_tissueprops -> folder containing voxel-wise tissue-specific tissue parameters used to synthesise the synthetic spinal cord scans.
-* qmt.fa -> off-resonance pulse flip angles for quantitative magnetisation transfer (qMT) imaging [deg]
-* qmt.off -> off-resonance pulse frequencies for qMT imaging [Hz]
+* qmt.fa -> off-resonance pulse flip angles for quantitative magnetisation transfer (qMT) imaging [deg]. Note that this file contains 11 entries while the qMT NIFTIs contain 44 volumes. This is due to the fact that each off-resonance pulse is repeated 4 times; signal intensity differences among these 4 repetitions are due to the simulated order of acquisitions of the MRI slices, which mimicks the ZOOM-EPI implementation (slices acquired in multiple packages)
+* qmt.off -> off-resonance pulse frequencies for qMT imaging [Hz]. Note that this file, similarly to qmt.fa, contains 11 entries while the qMT NIFTIs contain 44 volumes. This is due to the fact that each off-resonance fpulse is repeated 4 times; signal intensity differences among these 4 repetitions are due to the simulated order of acquisitions of the MRI slices, which mimicks the ZOOM-EPI implementation (slices acquired in multiple packages)
 * qmt_M.nii.gz -> empty file used as a reference for NIFTI headers
 * refnifti.nii.gz -> empty file used as a reference for NIFTI headers
 * tissue.nii.gz -> binary mask containing cerebrospinal fluid (CSF) + spinal cord
