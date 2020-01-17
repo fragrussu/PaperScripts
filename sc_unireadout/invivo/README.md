@@ -33,7 +33,8 @@ Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScript
 
 # Summary description of scripts
 
-* `scr01_segment_dwi_prisma.sh`                   ->  segment the spinal cord to run denoising only within the spinal cord
+* `scr01_segment_dwi_philips.sh`                  ->  segment the spinal cord to denoise only within the spinal cord (Philips)
+* `scr01_segment_dwi_prisma.sh`                   ->  segment the spinal cord to denoise only within the spinal cord (Prisma)
 * `scr02_denoiserice_london.m`                    ->  denoise the London data
 * `scr02_denoise_prisma.m`                        ->  denoise the NYU and Montreal data
 * `scr03_create_bvec_allmultimod.m`               ->  create useful information to use sct_dmri_moco to all EPI volumes
