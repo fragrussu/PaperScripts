@@ -384,8 +384,6 @@ lim2_denjoint2qmt = max(prec_dwi_denjoint2qmt,[],2);
 lim2_denjointall = max(prec_dwi_denjoint4,[],2);
 
 
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densingledwi_marker,'MarkerSize',densingledwi_size,'Color',densingledwi_color,'LineWidth',densingledwi_width);
 hold on
 plot(snrvals,var_denjoint2mese,denjoint2mese_marker,'MarkerSize',denjoint2mese_size,'Color',denjoint2mese_color,'LineWidth',denjoint2mese_width);
@@ -396,9 +394,6 @@ plot(snrvals,var_denjoint2qmt,denjoint2qmt_marker,'MarkerSize',denjoint2qmt_size
 hold on
 plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color',denjoint4_color,'LineWidth',denjoint4_width);
 hold on
-%fl = fill([snrvals wrev(snrvals)],[lim1_noisy' wrev(lim2_noisy')],noisy_color);
-%set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
-%hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_densingle' wrev(lim2_densingle')],densingledwi_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
@@ -414,8 +409,6 @@ hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_denjointall' wrev(lim2_denjointall')],denjoint4_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densingledwi_marker,'MarkerSize',densingledwi_size,'Color',densingledwi_color,'LineWidth',densingledwi_width);
 hold on
 plot(snrvals,var_denjoint2mese,denjoint2mese_marker,'MarkerSize',denjoint2mese_size,'Color',denjoint2mese_color,'LineWidth',denjoint2mese_width);
@@ -428,7 +421,6 @@ plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color
 hold on
 grid on; xlabel('DWI SNR (@ b=0)');
 ylabel('Residual IQR [%]'); title('Diffusion');
-%legend({'Noisy data','DWI alone','DWI and mTE','DWI and IR','DWI and qMT','DWI, qMT, IR and mTE'});
 legend({'DWI alone','DWI and mTE','DWI and IR','DWI and qMT','DWI, qMT, IR and mTE'});
 set(gca,'XTick',[10 15 20 25 30 35 40]);
 
@@ -453,17 +445,12 @@ lim2_denjoint2 = max(prec_qmt_denjoint2,[],2);
 lim2_denjointall = max(prec_qmt_denjoint4,[],2);
 
 
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densingleqmt_marker,'MarkerSize',densingleqmt_size,'Color',densingleqmt_color,'LineWidth',densingleqmt_width);
 hold on
 plot(snrvals,var_denjoint2,denjoint2qmt_marker,'MarkerSize',denjoint2qmt_size,'Color',denjoint2qmt_color,'LineWidth',denjoint2qmt_width);
 hold on
 plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color',denjoint4_color,'LineWidth',denjoint4_width);
 hold on
-%fl = fill([snrvals wrev(snrvals)],[lim1_noisy' wrev(lim2_noisy')],noisy_color);
-%set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
-%hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_densingle' wrev(lim2_densingle')],densingleqmt_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
@@ -473,8 +460,6 @@ hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_denjointall' wrev(lim2_denjointall')],denjoint4_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densingleqmt_marker,'MarkerSize',densingleqmt_size,'Color',densingleqmt_color,'LineWidth',densingleqmt_width);
 hold on
 plot(snrvals,var_denjoint2,denjoint2qmt_marker,'MarkerSize',denjoint2qmt_size,'Color',denjoint2qmt_color,'LineWidth',denjoint2qmt_width);
@@ -483,7 +468,6 @@ plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color
 hold on
 grid on; xlabel('DWI SNR (@ b=0)');
 ylabel('Residual IQR [%]'); title('Quantitative MT');
-%legend({'Noisy data','qMT alone','DWI and qMT','DWI, qMT, IR and mTE'});
 legend({'qMT alone','DWI and qMT','DWI, qMT, IR and mTE'});
 set(gca,'XTick',[10 15 20 25 30 35 40]);
 
@@ -507,17 +491,12 @@ lim2_denjoint2 = max(prec_irse_denjoint2,[],2);
 lim2_denjointall = max(prec_irse_denjoint4,[],2);
 
 
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densingleirse_marker,'MarkerSize',densingleirse_size,'Color',densingleirse_color,'LineWidth',densingleirse_width);
 hold on
 plot(snrvals,var_denjoint2,denjoint2irse_marker,'MarkerSize',denjoint2irse_size,'Color',denjoint2irse_color,'LineWidth',denjoint2irse_width);
 hold on
 plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color',denjoint4_color,'LineWidth',denjoint4_width);
 hold on
-%fl = fill([snrvals wrev(snrvals)],[lim1_noisy' wrev(lim2_noisy')],noisy_color);
-%set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
-%hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_densingle' wrev(lim2_densingle')],densingleirse_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
@@ -527,8 +506,6 @@ hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_denjointall' wrev(lim2_denjointall')],denjoint4_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densingleirse_marker,'MarkerSize',densingleirse_size,'Color',densingleirse_color,'LineWidth',densingleirse_width);
 hold on
 plot(snrvals,var_denjoint2,denjoint2irse_marker,'MarkerSize',denjoint2irse_size,'Color',denjoint2irse_color,'LineWidth',denjoint2irse_width);
@@ -537,7 +514,6 @@ plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color
 hold on
 grid on; xlabel('DWI SNR (@ b=0)');
 ylabel('Residual IQR [%]'); title('Inversion recovery');
-%legend({'Noisy data','IR alone','DWI and IR','DWI, qMT, IR and mTE'});
 legend({'IR alone','DWI and IR','DWI, qMT, IR and mTE'});
 set(gca,'XTick',[10 15 20 25 30 35 40]);
 
@@ -561,17 +537,12 @@ lim2_denjoint2 = max(prec_mese_denjoint2,[],2);
 lim2_denjointall = max(prec_mese_denjoint4,[],2);
 
 
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densinglemese_marker,'MarkerSize',densinglemese_size,'Color',densinglemese_color,'LineWidth',densinglemese_width);
 hold on
 plot(snrvals,var_denjoint2,denjoint2mese_marker,'MarkerSize',denjoint2mese_size,'Color',denjoint2mese_color,'LineWidth',denjoint2mese_width);
 hold on
 plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color',denjoint4_color,'LineWidth',denjoint4_width);
 hold on
-%fl = fill([snrvals wrev(snrvals)],[lim1_noisy' wrev(lim2_noisy')],noisy_color);
-%set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
-%hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_densingle' wrev(lim2_densingle')],densinglemese_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
@@ -581,8 +552,6 @@ hold on
 fl = fill([snrvals wrev(snrvals)],[lim1_denjointall' wrev(lim2_denjointall')],denjoint4_color);
 set(fl,'EdgeAlpha',0,'FaceAlpha',alpha);
 hold on
-%plot(snrvals,var_noisy,noisy_marker,'MarkerSize',noisy_size,'Color',noisy_color,'LineWidth',noisy_width);
-%hold on
 plot(snrvals,var_densingle,densinglemese_marker,'MarkerSize',densinglemese_size,'Color',densinglemese_color,'LineWidth',densinglemese_width);
 hold on
 plot(snrvals,var_denjoint2,denjoint2mese_marker,'MarkerSize',denjoint2mese_size,'Color',denjoint2mese_color,'LineWidth',denjoint2mese_width);
@@ -591,6 +560,5 @@ plot(snrvals,var_denjointall,denjoint4_marker,'MarkerSize',denjoint4_size,'Color
 hold on
 grid on; xlabel('DWI SNR (@ b=0)');
 ylabel('Residual IQR [%]'); title('Multi-TE');
-%legend({'Noisy data','mTE alone','DWI and mTE','DWI, qMT, IR and mTE'});
 legend({'mTE alone','DWI and mTE','DWI, qMT, IR and mTE'});
 set(gca,'XTick',[10 15 20 25 30 35 40]);
