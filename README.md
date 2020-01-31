@@ -11,7 +11,7 @@ If you use data or code included in PaperScripts in your research, please rememb
 * [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): please cite our [preprint](http://www.biorxiv.org/content/10.1101/859538v1) "Multi-parametric quantitative spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Novikov DS, Fieremans E, Gandini Wheeler-Kingshott CAM; biorxiv 2019 (DOI: 10.1101/859538).
 
 # License
-PaperScripts and all data and code within it is distributed under the BSD 2-Clause License, Copyright (c) 2019, University College London. All rights reserved. Link to license [here](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE).
+PaperScripts and all data and code within it is distributed under the BSD 2-Clause License, Copyright (c) 2019 and 2020, University College London. All rights reserved. Link to license [here](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE).
 
 # Acknowledgements
 Funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 634541) and from the United Kingdom Engineering and Physical Sciences Research Council (EPSRC R006032/1 and M020533/1) is acknowledged. 
