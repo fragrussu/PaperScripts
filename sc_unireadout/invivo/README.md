@@ -64,13 +64,13 @@ Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScript
 * `scr12_med_gm_prisma.m`                         ->  evaluate medians of metrics
 * `scr12_med_wm_london.m`                         ->  evaluate medians of metrics
 * `scr12_med_wm_prisma.m`                         ->  evaluate medians of metrics
-* `scr13_figure3a_OneSubjectImagesPhil.m`         ->  plot examples of images from London data
-* `scr13_figure3b_OneSubjectResidualsPhil.m`      ->  plot examples of residuals from London data
-* `scr14_figure4a_OneSubjectImagesSiem.m`         ->  plot examples of images from NYU and Montreal data
-* `scr14_figure4b_OneSubjectResidualsSiem.m`      ->  plot examples of residuals from NYU and Montreal data
-* `scr15_figure5_OneSubjectMetricsPhil.m`         ->  plot examples of metrics from London data
-* `scr16_figure6_OneSubjectMetricsSiemNY.m`       ->  plot examples of metrics from NYU data
-* `scr17_figure7_OneSubjectMetricsSiemMon.m`      ->  plot examples of metrics from Montreal data
+* `scr13_OneSubjectImagesPhil.m`                  ->  plot examples of images from London data
+* `scr13_OneSubjectResidualsPhil.m`               ->  plot examples of residuals from London data
+* `scr14_OneSubjectImagesSiem.m`                  ->  plot examples of images from NYU and Montreal data
+* `scr14_OneSubjectResidualsSiem.m`               ->  plot examples of residuals from NYU and Montreal data
+* `scr15_OneSubjectMetricsPhil.m`                 ->  plot examples of metrics from London data
+* `scr16_OneSubjectMetricsSiemNY.m`               ->  plot examples of metrics from NYU data
+* `scr17_OneSubjectMetricsSiemMon.m`              ->  plot examples of metrics from Montreal data
 * `scr18_PlotSigmaNoise_london.m`                 ->  plot estimates of noise levels from London data
 * `scr18_PlotSigmaNoise_prisma.m`                 ->  plot estimates of noise levels from NYU and Montreal data
 * `scr19_diffmap_philips_rv202001.m`              ->  calculate difference maps for all parametric metrics (with denoising - without denoising), London data
