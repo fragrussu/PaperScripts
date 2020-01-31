@@ -35,18 +35,24 @@ Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScript
 
 # Summary description of scripts
 
-* `syn00_preliminary_unzipNIFTIGZ.sh`               ->  unzip .nii.gz files as some NIFTI readers require unzipped NIFTIs
-* `syn01_CreateTissuePar.m`                         ->  synthesise tissue properties
-* `syn02_SynDwiIrseMese.m`                          ->  syntehsise diffusion-weighted, inversion recovery and multi-TE imaging
-* `syn03_SynQmt.m`                                  ->  synthesise qMT imaging
-* `syn04_MergeScans.sh`                             ->  create multi-contrast 4D NIFTI files
-* `syn05_DenoiseOneGaussNoiseReal.m`                ->  denoise one Gaussian noise realisation
-* `syn06_DenoiseOneGaussNoiseReal_plot_figure1.m`   ->  plot residuals obtained after denoising one Gaussian noise realisation (used to generate Figure 1)
-* `syn07_EvaluateAccPrecGaussian.m`                 ->  evaluate performances of denoising in terms of accuracy and precision
-* `syn07_EvaluateAccPrecGaussian.mat`               ->  output of syn06_EvaluateAccPrecGaussian.m
-* `syn08_EvaluateAccPrecGauss_plot_figure2.m`       ->  plot performances of denoising in terms of accuracy and precision (loads `syn06_EvaluateAccPrecGaussian.mat`; 
-                                                      used to generate Figure 2)
-* `syn09_CompareEstimatedNoiseLevel.m`              ->  compare noise estimates of different denoising strategies (for supplementary material S2)
+* `syn00_preliminary_unzipNIFTIGZ.sh`                ->  unzip .nii.gz files as some NIFTI readers require unzipped NIFTIs
+* `syn01_CreateTissuePar.m`                          ->  synthesise tissue properties
+* `syn02_SynDwiIrseMese.m`                           ->  syntehsise diffusion-weighted, inversion recovery and multi-TE imaging
+* `syn03_SynQmt.m`                                   ->  synthesise qMT imaging
+* `syn04_MergeScans.sh`                              ->  create multi-contrast 4D NIFTI files
+* `syn05_DenoiseOneGaussNoiseReal.m`                 ->  denoise one Gaussian noise realisation
+* `syn06_DenoiseOneGaussNoiseReal_plot.m`            ->  plot residuals obtained after denoising one Gaussian noise realisation
+* `syn07_EvaluateAccPrecGaussian.m`                  ->  evaluate performances of denoising in terms of accuracy and precision (Gaussian noise)
+* `syn07_EvaluateAccPrecGaussian.mat`                ->  output of syn06_EvaluateAccPrecGaussian.m
+* `syn08_EvaluateAccPrecGauss_plot.m`                ->  plot performances of denoising in terms of accuracy and precision, Gaussian noise (loads `syn06_EvaluateAccPrecGaussian.mat`)
+* `syn09_CompareEstimatedNoiseLevel.m`               ->  compare noise estimates of different denoising strategies (Gaussian noise)
+* `syn10_rev202001_DenoiseOneRicianNoiseReal.m`      ->  denoise one Rician noise realisation
+* `syn10_rev202001_DenoiseOneRicianNoiseReal_plot.m` ->  plot residuals obtained after denoising one Rician noise realisation
+* `syn11_rev202001_EvaluateAccPrecRician.m`          ->  evaluate performances of denoising in terms of accuracy and precision (Rician noise)
+* `syn11_rev202001_EvaluateAccPrecRician.mat`        ->  output of syn11_rev202001_EvaluateAccPrecRician.m
+* `syn12_rev202001_EvaluateAccPrecRician_plot.m`     ->  plot performances of denoising in terms of accuracy and precision, Rician noise (loads `syn11_rev202001_EvaluateAccPrecRician.mat`)
+* `syn13_rev202001_svdgauss.m`                       ->  perform singular value decomposition of noise-free, noisy and denoised matrices (Gaussian noise)
+* `syn14_rev202001_svdrice.m`                        ->  perform singular value decomposition of noise-free, noisy and denoised matrices (Rician noise)
 
 
 

@@ -56,20 +56,32 @@ Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScript
 * `scr11_deepseggm_london.sh`                     ->  segment grey matter, London data
 * `scr11_deepseggm_montreal.sh`                   ->  segment grey matter, Montreal data
 * `scr11_deepseggm_nyu.sh`                        ->  segment grey matter, NYU data
-* `scr12_cov_gm_london_table5to8.m`               ->  evaluate COVs for tables 5 to 8
-* `scr12_cov_gm_prisma_table5to8.m`               ->  evaluate COVs for tables 5 to 8
-* `scr12_cov_wm_london_table5to8.m`               ->  evaluate COVs for tables 5 to 8
-* `scr12_cov_wm_prisma_table5to8.m`               ->  evaluate COVs for tables 5 to 8
-* `scr12_med_gm_london_table5to8.m`               ->  evaluate medians for tables 5 to 8
-* `scr12_med_gm_prisma_table5to8.m`               ->  evaluate medians for tables 5 to 8
-* `scr12_med_wm_london_table5to8.m`               ->  evaluate medians for tables 5 to 8
-* `scr12_med_wm_prisma_table5to8.m`               ->  evaluate medians for tables 5 to 8
-* `scr13_figure3a_OneSubjectImagesPhil.m`         ->  plot examples of images from London data, for figure 3
-* `scr13_figure3b_OneSubjectResidualsPhil.m`      ->  plot examples of residuals from London data, for figure 3
-* `scr14_figure4a_OneSubjectImagesSiem.m`         ->  plot examples of images from NYU and Montreal data, for figure 4
-* `scr14_figure4b_OneSubjectResidualsSiem.m`      ->  plot examples of residuals from NYU and Montreal data, for figure 4
-* `scr15_figure5_OneSubjectMetricsPhil.m`         ->  plot examples of metrics from London data, for figure 5 
-* `scr16_figure6_OneSubjectMetricsSiemNY.m`       ->  plot examples of metrics from NYU data, for figure 6
-* `scr17_figure7_OneSubjectMetricsSiemMon.m`      ->  plot examples of metrics from Montreal data, for figure 7
-* `scr18_PlotSigmaNoise_london.m`                 ->  plot estimates of noise levels from London data, for supplementary material S3
-* `scr18_PlotSigmaNoise_prisma.m`                 ->  plot estimates of noise levels from NYU and Montreal data, for supplementary material S3
+* `scr12_cov_gm_london.m`                         ->  evaluate coefficient of variations (COVs) of metrics
+* `scr12_cov_gm_prisma.m`                         ->  evaluate coefficient of variations (COVs) of metrics
+* `scr12_cov_wm_london.m`                         ->  evaluate coefficient of variations (COVs) of metrics
+* `scr12_cov_wm_prisma.m`                         ->  evaluate coefficient of variations (COVs) of metrics 
+* `scr12_med_gm_london.m`                         ->  evaluate medians of metrics
+* `scr12_med_gm_prisma.m`                         ->  evaluate medians of metrics
+* `scr12_med_wm_london.m`                         ->  evaluate medians of metrics
+* `scr12_med_wm_prisma.m`                         ->  evaluate medians of metrics
+* `scr13_figure3a_OneSubjectImagesPhil.m`         ->  plot examples of images from London data
+* `scr13_figure3b_OneSubjectResidualsPhil.m`      ->  plot examples of residuals from London data
+* `scr14_figure4a_OneSubjectImagesSiem.m`         ->  plot examples of images from NYU and Montreal data
+* `scr14_figure4b_OneSubjectResidualsSiem.m`      ->  plot examples of residuals from NYU and Montreal data
+* `scr15_figure5_OneSubjectMetricsPhil.m`         ->  plot examples of metrics from London data
+* `scr16_figure6_OneSubjectMetricsSiemNY.m`       ->  plot examples of metrics from NYU data
+* `scr17_figure7_OneSubjectMetricsSiemMon.m`      ->  plot examples of metrics from Montreal data
+* `scr18_PlotSigmaNoise_london.m`                 ->  plot estimates of noise levels from London data
+* `scr18_PlotSigmaNoise_prisma.m`                 ->  plot estimates of noise levels from NYU and Montreal data
+* `scr19_diffmap_philips_rv202001.m`              ->  calculate difference maps for all parametric metrics (with denoising - without denoising), London data
+* `scr19_diffmap_siemens_mon_rv202001.m`          ->  calculate difference maps for all parametric metrics (with denoising - without denoising), Montreal data
+* `scr19_diffmap_siemens_nyu_rv202001.m`          ->  calculate difference maps for all parametric metrics (with denoising - without denoising), New York data
+* `scr20_coreg_scanrescan_rv202001.sh`            ->  co-register scan and rescan (rescan warped to scan) with NiftyReg, London data
+* `scr21_scanrescancov_gm_london_rv202001.m`      ->  calculate intrinsic metric variability without denoising from scan-rescan, London data (grey matter) 
+* `scr21_scanrescancov_wm_london_rv202001.m`      ->  calculate intrinsic metric variability without denoising from scan-rescan, London data (white matter) 
+* `scr22_estimatesnr_london_rv202001.m`           ->  estimate signal-to-noise ratio (SNR) on vendor 1 (Philips Achieva, London)
+* `scr22_estimatesnr_prisma_rv202001.m`           ->  estimate signal-to-noise ratio (SNR) on vendor 2 (Siemens Prisma, Montreal and New York)
+* `scr23_cnr_london_rv202001.m`                   ->  evaluate contrast-to-noise ration (CNR) on vendor 1 (Philips Achieva, London)
+* `scr23_cnr_prisma_rv202001.m`                   ->  evaluate contrast-to-noise ration (CNR) on vendor 2 (Siemens Prisma, Montreal and New York)
+* `cnr.m`                                         ->  function evaluationg contrast-to-noise ratio (CNR)
+

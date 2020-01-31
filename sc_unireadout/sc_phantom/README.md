@@ -79,51 +79,104 @@ The sub-folder [`multimodal_images`](http://github.com/fragrussu/PaperScripts/tr
 
 
 The sub-folder [`multimodal_noiserealisation_gauss`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_noiserealisation_gauss) contains:
-* vartissue_dwi_noisy_snr15.nii.gz -> noisy DWI, with ...
+* vartissue_dwi_noisy_snr15.nii.gz -> noisy DWI (Gaussian noise), with ...
     * vartissue_dwi_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_dwi_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_dwi_noisy_snr15_res.nii.gz -> residuals
     * vartissue_dwi_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
 
-* vartissue_irse_noisy_snr15.nii.gz -> noisy IR, with ...
+* vartissue_irse_noisy_snr15.nii.gz -> noisy IR (Gaussian noise), with ...
     * vartissue_irse_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_irse_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_irse_noisy_snr15_res.nii.gz -> residuals
     * vartissue_irse_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
 
-* vartissue_mese_noisy_snr15.nii.gz -> noisy mTE, with ...
+* vartissue_mese_noisy_snr15.nii.gz -> noisy mTE (Gaussian noise), with ...
     * vartissue_mese_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_mese_noisy_snr15_nsig.nii.gz  -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_mese_noisy_snr15_res.nii.gz -> residuals
     * vartissue_mese_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
 
-* vartissue_qmt_noisy_snr15.nii.gz -> noisy qMT, with ...
+* vartissue_qmt_noisy_snr15.nii.gz -> noisy qMT (Gaussian noise), with ...
     * vartissue_qmt_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_qmt_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_qmt_noisy_snr15_res.nii.gz -> residuals
     * vartissue_qmt_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
 
-* vartissue_dwiirse_noisy_snr15.nii.gz -> noisy concatenation of DWI and IR, with ...
+* vartissue_dwiirse_noisy_snr15.nii.gz -> noisy concatenation of DWI and IR (Gaussian noise), with ...
     * vartissue_dwiirse_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_dwiirse_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_dwiirse_noisy_snr15_res.nii.gz -> residuals
     * vartissue_dwiirse_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
 
-* vartissue_dwimese_noisy_snr15.nii.gz -> noisy concatenation of DWI and mTE, with ...
+* vartissue_dwimese_noisy_snr15.nii.gz -> noisy concatenation of DWI and mTE (Gaussian noise), with ...
     * vartissue_dwimese_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_dwimese_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_dwimese_noisy_snr15_res.nii.gz -> residuals
     * vartissue_dwimese_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
 
-* vartissue_dwiqmt_noisy_snr15.nii.gz -> noisy concatenation of DWI and qMT, with ...
+* vartissue_dwiqmt_noisy_snr15.nii.gz -> noisy concatenation of DWI and qMT (Gaussian noise), with ...
     * vartissue_dwiqmt_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_dwiqmt_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_dwiqmt_noisy_snr15_res.nii.gz -> residuals
     * vartissue_dwiqmt_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
 
-* vartissue_dwiqmtirsemese_noisy_snr15.nii.gz -> noisy concatenation of DWI, qMT, IR, mTE, with ...
+* vartissue_dwiqmtirsemese_noisy_snr15.nii.gz -> noisy concatenation of DWI, qMT, IR, mTE (Gaussian noise), with ...
     * vartissue_dwiqmtirsemese_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_dwiqmtirsemese_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
     * vartissue_dwiqmtirsemese_noisy_snr15_res.nii.gz -> residuals
     * vartissue_dwiqmtirsemese_noisy_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+
+
+
+The sub-folder [`multimodal_noiserealisation_rician`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_noiserealisation_rician) contains:
+* vartissue_dwi_noisyrice_snr15.nii.gz -> noisy DWI (Rician noise), with ...
+    * vartissue_dwi_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_dwi_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_dwi_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_dwi_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+* vartissue_irse_noisyrice_snr15.nii.gz -> noisy IR (Rician noise), with ...
+    * vartissue_irse_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_irse_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_irse_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_irse_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+* vartissue_mese_noisyrice_snr15.nii.gz -> noisy mTE (Rician noise), with ...
+    * vartissue_mese_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_mese_noisyrice_snr15_nsig.nii.gz  -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_mese_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_mese_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+* vartissue_qmt_noisyrice_snr15.nii.gz -> noisy qMT (Rician noise), with ...
+    * vartissue_qmt_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_qmt_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_qmt_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_qmt_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+* vartissue_dwiirse_noisyrice_snr15.nii.gz -> noisy concatenation of DWI and IR (Rician noise), with ...
+    * vartissue_dwiirse_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_dwiirse_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_dwiirse_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_dwiirse_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+* vartissue_dwimese_noisyrice_snr15.nii.gz -> noisy concatenation of DWI and mTE (Rician noise), with ...
+    * vartissue_dwimese_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_dwimese_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_dwimese_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_dwimese_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+* vartissue_dwiqmt_noisyrice_snr15.nii.gz -> noisy concatenation of DWI and qMT (Rician noise), with ...
+    * vartissue_dwiqmt_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_dwiqmt_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_dwiqmt_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_dwiqmt_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
+* vartissue_dwiqmtirsemese_noisyrice_snr15.nii.gz -> noisy concatenation of DWI, qMT, IR, mTE (Rician noise), with ...
+    * vartissue_dwiqmtirsemese_noisyrice_snr15_denoised.nii.gz -> denoised version
+    * vartissue_dwiqmtirsemese_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
+    * vartissue_dwiqmtirsemese_noisyrice_snr15_res.nii.gz -> residuals
+    * vartissue_dwiqmtirsemese_noisyrice_snr15_sigma.nii.gz -> estimate of noise standard deviation
+
 
