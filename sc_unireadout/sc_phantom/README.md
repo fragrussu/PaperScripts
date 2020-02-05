@@ -39,7 +39,7 @@ The [`sc_phantom`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unire
 
 
 
-The sub-folder [`multimodal_tissueprops`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_tissueprops) contains:
+The sub-folder [`multimodal_tissueprops`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_tissueprops) contains voxel-wise tissue properties used to generate the synthetic phantom:
 * adcsf_um2ms.nii.gz -> voxel-wise axial diffusivity (AD) of CSF [um^2/ms]
 * adgm_um2ms.nii.gz -> voxel-wise AD of grey matter [um^2/ms]
 * adwm_um2ms.nii.gz -> voxel-wise AD of white matter [um^2/ms]
@@ -65,7 +65,7 @@ The sub-folder [`multimodal_tissueprops`](http://github.com/fragrussu/PaperScrip
 
 
 
-The sub-folder [`multimodal_images`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_images) contains:
+The sub-folder [`multimodal_images`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_images) contains the noise-free synthetic phantom:
 * vartissue_dwi_M.nii.gz -> synthetic, noise-free DWI scan
 * vartissue_irse_M.nii.gz -> synthetic, noise-free IR scan
 * vartissue_mese_M.nii.gz -> synthetic, noise-free mTE scan
@@ -78,7 +78,7 @@ The sub-folder [`multimodal_images`](http://github.com/fragrussu/PaperScripts/tr
 
 
 
-The sub-folder [`multimodal_noiserealisation_gauss`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_noiserealisation_gauss) contains:
+The sub-folder [`multimodal_noiserealisation_gauss`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_noiserealisation_gauss) contains the noisy synthetic phantom (Gaussian noise at SNR of 15 only; please find code [here](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) to synthesise all SNR values studied in our paper):
 * vartissue_dwi_noisy_snr15.nii.gz -> noisy DWI (Gaussian noise), with ...
     * vartissue_dwi_noisy_snr15_denoised.nii.gz -> denoised version
     * vartissue_dwi_noisy_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
@@ -130,7 +130,7 @@ The sub-folder [`multimodal_noiserealisation_gauss`](http://github.com/fragrussu
 
 
 
-The sub-folder [`multimodal_noiserealisation_rician`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_noiserealisation_rician) contains:
+The sub-folder [`multimodal_noiserealisation_rician`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/sc_phantom/multimodal_noiserealisation_rician) contains (Rician noise at SNR of 15 only; please find code [here](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout/simulations) to synthesise all SNR values studied in our paper):
 * vartissue_dwi_noisyrice_snr15.nii.gz -> noisy DWI (Rician noise), with ...
     * vartissue_dwi_noisyrice_snr15_denoised.nii.gz -> denoised version
     * vartissue_dwi_noisyrice_snr15_nsig.nii.gz -> number of significant signal components above the Marchenko-Pastur noise distribution
