@@ -1,5 +1,5 @@
 # PaperScripts overview
-This repository contains scripts written to produce a number of research articles, which are shared to enhance reproducibility in research. Whenever possible, data are also included in the repository.
+This repository contains scripts written to produce a number of research articles, which are shared to support reproducibile research. Whenever possible, data are also included in the repository.
 
 
 PaperScripts includes the following projects:
