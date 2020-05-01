@@ -56,14 +56,14 @@ Please also see folder [`dependencies`](https://github.com/fragrussu/PaperScript
 * `scr11_deepseggm_london.sh`                     ->  segment grey matter, London data
 * `scr11_deepseggm_montreal.sh`                   ->  segment grey matter, Montreal data
 * `scr11_deepseggm_nyu.sh`                        ->  segment grey matter, NYU data
-* `scr12_cov_gm_london.m`                         ->  evaluate coefficient of variations (COVs) of metrics
-* `scr12_cov_gm_prisma.m`                         ->  evaluate coefficient of variations (COVs) of metrics
-* `scr12_cov_wm_london.m`                         ->  evaluate coefficient of variations (COVs) of metrics
-* `scr12_cov_wm_prisma.m`                         ->  evaluate coefficient of variations (COVs) of metrics 
-* `scr12_med_gm_london.m`                         ->  evaluate medians of metrics
-* `scr12_med_gm_prisma.m`                         ->  evaluate medians of metrics
-* `scr12_med_wm_london.m`                         ->  evaluate medians of metrics
-* `scr12_med_wm_prisma.m`                         ->  evaluate medians of metrics
+* `scr12_cov_gm_london.m`                         ->  evaluate coefficient of variations (COVs) of metrics, grey matter, London data
+* `scr12_cov_gm_prisma.m`                         ->  evaluate coefficient of variations (COVs) of metrics, grey matter, Prisma data
+* `scr12_cov_wm_london.m`                         ->  evaluate coefficient of variations (COVs) of metrics, white matter, London data
+* `scr12_cov_wm_prisma.m`                         ->  evaluate coefficient of variations (COVs) of metrics, white matter, Prisma data
+* `scr12_med_gm_london.m`                         ->  evaluate medians of metrics, grey matter, London data
+* `scr12_med_gm_prisma.m`                         ->  evaluate medians of metrics, grey matter, Prisma data
+* `scr12_med_wm_london.m`                         ->  evaluate medians of metrics, white matter, London data
+* `scr12_med_wm_prisma.m`                         ->  evaluate medians of metrics, white matter, Prisma data
 * `scr13_OneSubjectImagesPhil.m`                  ->  plot examples of images from London data
 * `scr13_OneSubjectResidualsPhil.m`               ->  plot examples of residuals from London data
 * `scr14_OneSubjectImagesSiem.m`                  ->  plot examples of images from NYU and Montreal data
