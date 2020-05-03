@@ -37,11 +37,11 @@ dwilist="scr05_ApplyMoco_dwinames_montreal.dat"
 
 
 ##### LOOP OVER DIFFERENT SUBJECTS
-for SBJ in "1" "2" "3" "4"  
+for SBJ in "1" 
 do
 
 	##### LOOP OVER DIFFERENT SCANS
-	for SC in "1" "2"
+	for SC in "1"
 	do
 
 		# Data directory
@@ -55,13 +55,10 @@ do
 			mocodirspline=$datadir"/"$DIFF"_moco-spline"
 
 			# Remove old directories
-			rm -r -f -v $mocodirnn
 			rm -r -f -v $mocodirspline
-			mkdir -v $mocodirnn
 			mkdir -v $mocodirspline
 
 			# NIFTIs
-			moconiftinn=$mocodirnn".nii"
 			moconiftispline=$mocodirspline".nii"
 
 			# b-val/b-vec files
