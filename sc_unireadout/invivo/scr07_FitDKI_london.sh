@@ -55,9 +55,7 @@ do
 			mocodirspline=$datadir"/"$DIFF"_moco-spline"
 
 			# Remove old directories
-			rm -r -f -v $mocodirnn
 			rm -r -f -v $mocodirspline
-			mkdir -v $mocodirnn
 			mkdir -v $mocodirspline
 
 			# NIFTIs
