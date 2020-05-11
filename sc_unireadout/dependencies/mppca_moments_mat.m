@@ -33,7 +33,7 @@ function [data_den_corr,s_g,nsig,exit_info] = mppca_moments_mat(data,nbins)
 
 
 % Run MP-denoising
-[data_den,s_r,nsig,exit_info] = mppca_moments_mat(data,nbins);
+[data_den,s_r,nsig,exit_info] = mppca_mat(data,nbins);
 
 % Loop through all measurements: mitigate noise floor in each of it
 data_den_corr = zeros(size(data_den));
