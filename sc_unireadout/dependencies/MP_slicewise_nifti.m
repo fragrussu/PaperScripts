@@ -10,6 +10,8 @@ function MP_slicewise_nifti(input,mask,output,varargin)
 %                                part)
 %
 %
+% 
+%
 % NOTICE: make sure that both input and mask are provided in floating point
 %         format, as their header is used as template for the output files
 %
@@ -39,6 +41,8 @@ function MP_slicewise_nifti(input,mask,output,varargin)
 % OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 % OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 % 
+
+fprintf('\n\n** NOTICE: if both input and mask are not provided in floating point format, results may be inaccurate! **\n\n')
 
 data = nifti(input); 
 data = data.dat(:,:,:,:);
