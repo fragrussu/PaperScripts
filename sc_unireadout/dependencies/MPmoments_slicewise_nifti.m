@@ -9,6 +9,9 @@ function MPmoments_slicewise_nifti(input,mask,output,varargin)
 %                                second half being the imaginary part).
 %
 %
+% NOTICE: make sure that both input and mask are provided in floating point
+%         format, as their header is used as template for the output files
+%
 % BSD 2-Clause License
 % 
 % Copyright (c) 2019, University College London.
