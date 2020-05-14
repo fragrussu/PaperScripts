@@ -39,6 +39,8 @@ function MPmoments_slicewise_nifti(input,mask,output,varargin)
 % OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 % 
 
+fprintf('\n\n** NOTICE: if both input and mask are not provided in floating point format, results may be inaccurate! **\n\n')
+
 data = nifti(input); 
 data = data.dat(:,:,:,:);
 
