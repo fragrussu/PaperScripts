@@ -1,13 +1,7 @@
-function MPmoments_slicewise_nifti(input,mask,output,varargin)
+function MPmoments_slicewise_nifti(input,mask,output)
 % MP denoising slice-by-slice within a mask with noise floor mitigation
 %
 % MPmoments_slicewise_nifti(input,mask,output)
-% MPmoments_slicewise_nifti(input,mask,output,1), when input has to be 
-%                                interpreted as concatenation of real and 
-%                                imaginary parts along the 4th dimension 
-%                                (first half of volumes being the real part; 
-%                                second half being the imaginary part).
-%
 %
 %
 % BSD 2-Clause License
@@ -40,19 +34,6 @@ function MPmoments_slicewise_nifti(input,mask,output,varargin)
 
 data = double(niftiread(input)); 
 info = niftiinfo(input);
-    
-% User has flagged data is to be interpreted as concatenation of real and
-% imaginary part, and denoising on the complex-valued data is required
-if(~isempty(varargin))
-    if(varargin{1}==1)
-        L = size(data,4)/2;
-        try
-            data = data(:,:,:,1:L) + 1j*data(:,:,:,L+1:2*L);
-        catch
-            warning('The number of volumes in the input data is not even -- cannot be interpreted as complex-valued!');
-        end
-    end
-end
 
 data_den = zeros(size(data));
 sigma_map = zeros([size(data,1) size(data,2) size(data,3)]);
@@ -98,38 +79,18 @@ for vv=1:size(data,4)
 end
 
 % Save as NIFTIs
-if(isreal(data_den))
+infoout = info;
+infoout.Datatype = 'double';   
+niftiwrite(data_den, [output '_denoised.nii'], infoout);
+niftiwrite(data_den - data, [output '_res.nii'], infoout);
     
-    infoout = info;
-    infoout.Datatype = 'double';   
-    niftiwrite(data_den, [output '_denoised.nii'], infoout);
-    niftiwrite(data_den - data, [output '_res.nii'], infoout);
+infosingle = info;
+infosingle.Datatype = 'double';
+infosingle.ImageSize = info.ImageSize(1:3);
+infosingle.PixelDimensions = info.PixelDimensions(1:3);
+niftiwrite(sigma_map, [output '_sigma.nii'], infosingle);
+niftiwrite(nsig_map, [output '_nsig.nii'], infosingle);
     
-    infosingle = info;
-    infosingle.Datatype = 'double';
-    infosingle.ImageSize = info.ImageSize(1:3);
-    infosingle.PixelDimensions = info.PixelDimensions(1:3);
-    niftiwrite(sigma_map, [output '_sigma.nii'], infosingle);
-    niftiwrite(nsig_map, [output '_nsig.nii'], infosingle);
-    
-    
-    
-else
-
-    infoout = info;
-    infoout.Datatype = 'double';   
-    niftiwrite(cat(4,real(data_den),imag(data_den)), [output '_denoised.nii'], infoout);
-    niftiwrite(cat(4,real(data_den),imag(data_den)) - cat(4,real(data),imag(data)), [output '_res.nii'], infoout);
-    
-    infosingle = info;
-    infosingle.Datatype = 'double';
-    infosingle.ImageSize = info.ImageSize(1:3);
-    infosingle.PixelDimensions = info.PixelDimensions(1:3);
-    niftiwrite(sigma_map, [output '_sigma.nii'], infosingle);
-    niftiwrite(nsig_map, [output '_nsig.nii'], infosingle);
-     
-    
-end
 
 end
 
