@@ -14,7 +14,7 @@ function MPmoments_slicewise_nifti(input,mask,output,varargin)
 %
 % BSD 2-Clause License
 % 
-% Copyright (c) 2019, University College London.
+% Copyright (c) 2019, 2020, University College London.
 % All rights reserved.
 % 
 % Redistribution and use in source and binary forms, with or without
@@ -41,9 +41,9 @@ function MPmoments_slicewise_nifti(input,mask,output,varargin)
 
 fprintf('\n\n** NOTICE: if both input and mask are not provided in floating point format, results may be inaccurate! **\n\n')
 
-data = nifti(input); 
-data = data.dat(:,:,:,:);
-
+data = double(niftiread(input)); 
+info = niftiinfo(input);
+    
 % User has flagged data is to be interpreted as concatenation of real and
 % imaginary part, and denoising on the complex-valued data is required
 if(~isempty(varargin))
@@ -60,8 +60,7 @@ end
 data_den = zeros(size(data));
 sigma_map = zeros([size(data,1) size(data,2) size(data,3)]);
 nsig_map = zeros([size(data,1) size(data,2) size(data,3)]);
-roi = nifti(mask);
-roi = roi.dat(:,:,:);
+roi = double(niftiread(mask));
 roi(roi~=0) = 1;
 
 % Slice-wise denoising
@@ -103,49 +102,38 @@ end
 
 % Save as NIFTIs
 if(isreal(data_den))
-    copyfile(input,[output '_denoised.nii']);
-    copyfile(input,[output '_res.nii']);
-    copyfile(mask,[output '_sigma.nii']);
-    copyfile(mask,[output '_nsig.nii']);
-
-    saveit = nifti([output '_denoised.nii']);
-    saveit.dat(:,:,:,:) = data_den;
-    clear saveit
-
-    saveit = nifti([output '_res.nii']);
-    saveit.dat(:,:,:,:) = data_den - data;
-    clear saveit
-
-    saveit = nifti([output '_sigma.nii']);
-    saveit.dat(:,:,:,:) = sigma_map;
-    clear saveit
-
-    saveit = nifti([output '_nsig.nii']);
-    saveit.dat(:,:,:,:) = nsig_map;
-    clear saveit
+    
+    infoout = info;
+    infoout.Datatype = 'double';   
+    niftiwrite(data_den, [output '_denoised.nii'], infoout);
+    niftiwrite(data_den - data, [output '_res.nii'], infoout);
+    
+    infosingle = info;
+    infosingle.Datatype = 'double';
+    infosingle.ImageSize = info.ImageSize(1:3);
+    infosingle.PixelDimensions = info.PixelDimensions(1:3);
+    niftiwrite(sigma_map, [output '_sigma.nii'], infosingle);
+    niftiwrite(nsig_map, [output '_nsig.nii'], infosingle);
+    
+    
     
 else
-    copyfile(input,[output '_denoised.nii']);
-    copyfile(input,[output '_res.nii']);
-    copyfile(mask,[output '_sigma.nii']);
-    copyfile(mask,[output '_nsig.nii']);
 
-    saveit = nifti([output '_denoised.nii']);
-    saveit.dat(:,:,:,:) = cat(4,real(data_den),imag(data_den));
-    clear saveit
-
-    saveit = nifti([output '_res.nii']);
-    saveit.dat(:,:,:,:) = cat(4,real(data_den),imag(data_den)) - cat(4,real(data),imag(data));
-    clear saveit
-
-    saveit = nifti([output '_sigma.nii']);
-    saveit.dat(:,:,:,:) = sigma_map;
-    clear saveit
-
-    saveit = nifti([output '_nsig.nii']);
-    saveit.dat(:,:,:,:) = nsig_map;
-    clear saveit
+    infoout = info;
+    infoout.Datatype = 'double';   
+    niftiwrite(cat(4,real(data_den),imag(data_den)), [output '_denoised.nii'], infoout);
+    niftiwrite(cat(4,real(data_den),imag(data_den)) - cat(4,real(data),imag(data)), [output '_res.nii'], infoout);
+    
+    infosingle = info;
+    infosingle.Datatype = 'double';
+    infosingle.ImageSize = info.ImageSize(1:3);
+    infosingle.PixelDimensions = info.PixelDimensions(1:3);
+    niftiwrite(sigma_map, [output '_sigma.nii'], infosingle);
+    niftiwrite(nsig_map, [output '_nsig.nii'], infosingle);
+     
     
 end
 
 end
+
+
