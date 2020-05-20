@@ -8,6 +8,15 @@ function MP_slicewise_nifti(input,mask,output,varargin)
 %                                (first half of volumes being the real part; 
 %                                second half being the imaginary part).
 %
+% - input: path of 4D NIFTI to denoise
+% - mask: spinal cord mask
+% - output: output file root name (several output files are provided:
+%           *_denoised.nii for denoised images, *_res.nii for residuals,
+%           *_sigma.nii for noise map, 
+%           *_nsig.nii for significant singular value above the MP bulk
+%
+%
+% Requires Matlab R2017b or later for NIFTI input/output
 %
 %
 % BSD 2-Clause License
