@@ -1,5 +1,5 @@
 function MPmoments_slicewise_nifti(input,mask,output,varargin)
-% MP denoising slice-by-slice within a mask with nosie floor mitigation
+% MP denoising slice-by-slice within a mask with noise floor mitigation
 %
 % MPmoments_slicewise_nifti(input,mask,output)
 % MPmoments_slicewise_nifti(input,mask,output,1), when input has to be 
@@ -9,8 +9,6 @@ function MPmoments_slicewise_nifti(input,mask,output,varargin)
 %                                second half being the imaginary part).
 %
 %
-% NOTICE: make sure that both input and mask are provided in floating point
-%         format, as their header is used as template for the output files
 %
 % BSD 2-Clause License
 % 
@@ -39,7 +37,6 @@ function MPmoments_slicewise_nifti(input,mask,output,varargin)
 % OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 % 
 
-fprintf('\n\n** NOTICE: if both input and mask are not provided in floating point format, results may be inaccurate! **\n\n')
 
 data = double(niftiread(input)); 
 info = niftiinfo(input);
