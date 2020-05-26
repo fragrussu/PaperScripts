@@ -3,7 +3,7 @@ This repository contains scripts written to produce a number of research article
 
 
 * [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): code and simulated data part of "Multi-parametric quantitative in vivo spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Fieremans E, Novikov DS, Gandini Wheeler-Kingshott CAM; [NeuroImage 2020, 217: 116884](http://doi.org/10.1016/j.neuroimage.2020.116884) (DOI: 10.1016/j.neuroimage.2020.116884).
-* ... more projects to follow soon ...
+* [`sardunet`](http://github.com/fragrussu/PaperScripts/tree/master/sardunet): code for "Select and retrieve via direct upsampling” network (SARDU-Net): a data-driven, model-free, deep learning approach for quantitative MRI protocol design". Grussu F et al, biorxiv 2020 (under screening).
 
 
 # License
