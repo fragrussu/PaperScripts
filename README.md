@@ -5,10 +5,10 @@ This repository contains scripts written to produce a number of research article
 * [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): code and simulated data part of "Multi-parametric quantitative *in vivo* spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Fieremans E, Novikov DS, Gandini Wheeler-Kingshott CAM; [NeuroImage 2020, 217: 116884](http://doi.org/10.1016/j.neuroimage.2020.116884) (DOI: 10.1016/j.neuroimage.2020.116884).
 
 
-* [`sardunet`](http://github.com/fragrussu/PaperScripts/tree/master/sardunet): code for "*"Select and retrieve via direct upsampling"* network (SARDU-Net): a data-driven, model-free, deep learning approach for quantitative MRI protocol design". Grussu F, Blumberg SB, Battiston M, Kakkar LS, Lin H, Ianuș A, Schneider T, Singh S, Bourne R, Punwani S, Atkinson D, Gandini Wheeler-Kingshott CAM, Panagiotaki E, Mertzanidou T and Alexander DC. biorxiv 2020, DOI: [10.1101/2020.05.26.116491](https://doi.org/10.1101/2020.05.26.116491). 
+* [`sardunet`](http://github.com/fragrussu/PaperScripts/tree/master/sardunet): code for "Feasibility of Data-Driven, Model-Free Quantitative MRI Protocol Design: Application to Brain and Prostate Diffusion-Relaxation Imaging". Grussu F, Blumberg SB, Battiston M, Kakkar LS, Lin H, Ianuș A, Schneider T, Singh S, Bourne R, Punwani S, Atkinson D, Gandini Wheeler-Kingshott CAM, Panagiotaki E, Mertzanidou T and Alexander DC. Frontiers in Physics 2021, 9:752208, doi: [10.3389/fphy.2021.752208](https://doi.org/10.3389/fphy.2021.752208). 
 
 # License
-PaperScripts and all data and code within it is distributed under the BSD 2-Clause License, Copyright (c) 2019 and 2020, University College London. All rights reserved. Link to license [here](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE).
+PaperScripts and all data and code within it is distributed under the BSD 2-Clause License, Copyright (c) 2019, 2020, 2021 University College London. All rights reserved. Link to license [here](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE).
 
 # Acknowledgements
 Funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 634541) and from the United Kingdom Engineering and Physical Sciences Research Council (EPSRC R006032/1 and M020533/1) is acknowledged. 
