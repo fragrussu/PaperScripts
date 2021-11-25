@@ -1,5 +1,5 @@
 # PaperScripts overview
-This repository contains scripts written to produce a number of research articles, which are shared to support reproducibile research. Whenever possible, data are also included in the repository. If you use data or code included in PaperScripts in your research, please remember to cite our papers as explained below.
+This repository contains scripts written to produce a number of research articles at [University College London](https://www.ucl.ac.uk) during my post-doctoral training, which are shared to support reproducibile research. Whenever possible, data are also included in the repository. If you use data or code included in PaperScripts in your research, please remember to cite our papers as explained below.
 
 
   * [`sc_unireadout`](http://github.com/fragrussu/PaperScripts/tree/master/sc_unireadout): code and simulated data part of "Multi-parametric quantitative *in vivo* spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Fieremans E, Novikov DS, Gandini Wheeler-Kingshott CAM; NeuroImage 2020, 217: 116884, doi: [10.1016/j.neuroimage.2020.116884](http://doi.org/10.1016/j.neuroimage.2020.116884).
@@ -9,6 +9,8 @@ This repository contains scripts written to produce a number of research article
 
 # License
 PaperScripts and all data and code within it is distributed under the BSD 2-Clause License, Copyright (c) 2019, 2020, 2021 University College London. All rights reserved. Link to license [here](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE).
+
+**The use of PaperScripts MUST also comply with the individual licenses of all of its dependencies.**
 
 # Acknowledgements
 Funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 634541) and from the United Kingdom Engineering and Physical Sciences Research Council (EPSRC R006032/1 and M020533/1) is acknowledged. 
