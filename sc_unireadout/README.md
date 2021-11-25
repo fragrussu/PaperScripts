@@ -8,6 +8,8 @@ Contact: Francesco Grussu, `<f.grussu@ucl.ac.uk>`
 All files in this project are released under a BSD 2-Clause License.
 See file [LICENSE](http://github.com/fragrussu/PaperScripts/blob/master/LICENSE) or go to http://github.com/fragrussu/PaperScripts/blob/master/LICENSE for full license details.
 
+**The use of code and data from `sc_unireadout` MUST also comply with the individual licenses of all dependencies.**
+
 
 # Folder content
 
